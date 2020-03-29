@@ -20,8 +20,8 @@ namespace App
             var levels = (LogLevel[])Enum.GetValues(typeof(LogLevel));
             levels = levels.Where(it => it != LogLevel.None).ToArray();
             var eventId = 1;
-            Array.ForEach(levels, level => logger.Log(level, eventId++,"This is a/an {level} log message.", level));
-
+            Array.ForEach(levels, level => logger.Log(level, eventId++, "This is a/an {level} log message.", level));
+            Console.WriteLine("Press ENTER to exit");
             Console.Read();
         }
     }

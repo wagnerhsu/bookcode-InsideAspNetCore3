@@ -11,6 +11,7 @@ namespace App
             var eventTypes = (TraceEventType[])Enum.GetValues(typeof(TraceEventType));
             var eventId = 1;
             Array.ForEach(eventTypes, it => source.TraceEvent(it, eventId++, $"This is a {it} message."));
+            Console.WriteLine("Press any key to exit");
             Console.Read();
         }
     }

@@ -22,6 +22,7 @@ namespace App
             levels = levels.Where(it => it != LogLevel.None).ToArray();
             var eventId = 1;
             Array.ForEach(levels, level=> logger.Log(level, eventId++, "This is a/an {0} log message.", level));
+            Console.WriteLine("Press ENTER key to exit");
             Console.Read();
         }
     }
