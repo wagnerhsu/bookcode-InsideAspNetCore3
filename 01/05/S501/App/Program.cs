@@ -10,7 +10,7 @@ namespace App
         {
             static void Print(int layer, string name) => Console.WriteLine($"{new string(' ', layer * 4)}{name}");
             new ServiceCollection()
-                .AddSingleton<IFileProvider>(new PhysicalFileProvider(@"c:\test"))
+                .AddSingleton<IFileProvider>(new PhysicalFileProvider(@"c:\temp\test"))
                 .AddSingleton<IFileManager, FileManager>()
                 .BuildServiceProvider()
                 .GetRequiredService<IFileManager>()

@@ -12,6 +12,7 @@ namespace App
         private IDisposable _scheduler;
         public Task StartAsync(CancellationToken cancellationToken)
         {
+            Console.WriteLine("Start");
             _scheduler = new Timer(Callback, null, TimeSpan.FromSeconds(5), TimeSpan.FromSeconds(5));
             return Task.CompletedTask;
 
@@ -23,6 +24,7 @@ namespace App
 
         public Task StopAsync(CancellationToken cancellationToken)
         {
+            Console.WriteLine("Stop");
             _scheduler?.Dispose();
             return Task.CompletedTask;
         }
