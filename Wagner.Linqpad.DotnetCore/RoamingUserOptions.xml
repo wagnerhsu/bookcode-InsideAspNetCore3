@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<UserOptions xmlns="http://schemas.datacontract.org/2004/07/LINQPad">
+  <AutoAddMissingReferences>true</AutoAddMissingReferences>
+  <DateTimeFormatString>yyyy-MM-dd HH:mm:ss</DateTimeFormatString>
+  <DateTimeOffsetFormatString>yyyy-MM-dd HH:mm:ss zzz</DateTimeOffsetFormatString>
+  <DefaultQueryLanguage>Program</DefaultQueryLanguage>
+  <EnableWordWrap>true</EnableWordWrap>
+  <MapCtrlGToExecute>true</MapCtrlGToExecute>
+  <MaxQueryRows>1000</MaxQueryRows>
+  <MemberOrderMode>0</MemberOrderMode>
+  <NoNativeKeysQuestion>true</NoNativeKeysQuestion>
+  <ShowLineNumbersInEditor>true</ShowLineNumbersInEditor>
+  <UseDarkTheme>true</UseDarkTheme>
+</UserOptions>
