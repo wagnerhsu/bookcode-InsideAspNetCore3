@@ -1,0 +1,51 @@
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.out
+*.app
+/BetaUpdateStream
+/Download .NET Core 3.exe
+/Help! LINQPad won't start!.txt
+/LINQPad.GUI.dll
+/LINQPad.GUI.runtimeconfig.json
+/LINQPad.Runtime.dll
+/LINQPad.Runtime.runtimeconfig.json
+/LINQPad6.exe
+/LINQPad6-x86.exe
+/LPRun6.exe
+/LPRun6-x86.exe
+/Download .NET Core 3.exe
+/LINQPad.GUI.dll
+/LINQPad.GUI.runtimeconfig.json
+/LINQPad.Runtime.dll
+/LINQPad.Runtime.runtimeconfig.json
+/LINQPad6.exe
+/LINQPad6-x86.exe
+/LPRun6.exe
+/LPRun6-x86.exe

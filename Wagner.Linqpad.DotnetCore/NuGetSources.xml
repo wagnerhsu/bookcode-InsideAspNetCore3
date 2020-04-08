@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<NuGetSources>
+  <Source Name="(default)" />
+  <Source Name="WagnerNuGetServer" URI="http://localhost:8624/nuget/WagnerNuGetServer/" />
+</NuGetSources>
