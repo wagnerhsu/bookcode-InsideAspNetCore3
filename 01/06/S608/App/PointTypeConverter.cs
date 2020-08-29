@@ -17,5 +17,4 @@ namespace App
             return new Point { X = x, Y = y };
         }
     }
-
 }

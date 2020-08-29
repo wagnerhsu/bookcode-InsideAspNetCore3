@@ -2,7 +2,6 @@
 using Microsoft.Extensions.Configuration;
 using System;
 using System.Collections.Generic;
-using System.Text;
 
 namespace App
 {
@@ -16,10 +15,10 @@ namespace App
             _setup = setup;
             _initialSettings = initialSettings;
         }
+
         public IConfigurationProvider Build(IConfigurationBuilder builder)
         {
             return new DbConfigurationProvider(_setup, _initialSettings);
         }
     }
-
 }

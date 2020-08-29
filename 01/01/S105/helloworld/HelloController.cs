@@ -2,9 +2,9 @@
 
 namespace helloworld
 {
-public class HelloController
-{
-    [HttpGet("/hello")]
-    public string SayHello() => "Hello World";
-}
+    public class HelloController
+    {
+        [HttpGet("/hello")]
+        public string SayHello() => "Hello World";
+    }
 }

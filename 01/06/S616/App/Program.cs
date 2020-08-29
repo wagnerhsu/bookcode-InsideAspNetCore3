@@ -1,14 +1,12 @@
 ﻿using Microsoft.Extensions.Configuration;
 using System.Collections.Generic;
 using System.Diagnostics;
-using System.IO;
-using System.Linq;
 
 namespace App
 {
     public class Program
     {
-        static void Main()
+        private static void Main()
         {
             var initialSettings = new Dictionary<string, string>
             {
@@ -30,5 +28,4 @@ namespace App
             Debug.Assert(profile.ContactInfo.PhoneNo == "123456789");
         }
     }
-
 }

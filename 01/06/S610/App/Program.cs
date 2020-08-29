@@ -33,9 +33,9 @@ namespace App
 
             var profiles = new Profile[]
             {
-            new Profile(Gender.Male,18,"foo@outlook.com","123"),
-            new Profile(Gender.Male,25,"bar@outlook.com","456"),
-            new Profile(Gender.Female,36,"baz@outlook.com","789"),
+                new Profile(Gender.Male,18,"foo@outlook.com","123"),
+                new Profile(Gender.Male,25,"bar@outlook.com","456"),
+                new Profile(Gender.Female,36,"baz@outlook.com","789"),
             };
 
             var collection = configuration.Get<IEnumerable<Profile>>();
@@ -47,8 +47,6 @@ namespace App
             Debug.Assert(array[0].Equals(profiles[1]));
             Debug.Assert(array[1].Equals(profiles[2]));
             Debug.Assert(array[2].Equals(profiles[0]));
-
         }
     }
-
 }

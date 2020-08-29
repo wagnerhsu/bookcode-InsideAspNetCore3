@@ -9,7 +9,6 @@ namespace App
     {
         public static void Main()
         {
-            
             var configuration = new ConfigurationBuilder()
                 .AddExtendedXmlFile("appsettings.xml")
                 .Build();

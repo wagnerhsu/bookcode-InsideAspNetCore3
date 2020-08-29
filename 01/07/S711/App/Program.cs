@@ -1,16 +1,12 @@
-﻿using Microsoft.Extensions.Configuration;
-using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Extensions.Hosting;
-using Microsoft.Extensions.Hosting.Internal;
+﻿using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Options;
 using System;
-using System.Globalization;
 
 namespace App
 {
-    class Program
+    internal class Program
     {
-        static void Main()
+        private static void Main()
         {
             var random = new Random();
             var optionsMonitor = new ServiceCollection()
@@ -28,5 +24,4 @@ namespace App
             Console.Read();
         }
     }
-
 }
