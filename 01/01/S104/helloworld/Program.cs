@@ -5,9 +5,9 @@ using Microsoft.Extensions.Hosting;
 
 namespace helloworld
 {
-    class Program
+    internal class Program
     {
-        static void Main()
+        private static void Main()
         {
             Host.CreateDefaultBuilder()
                 .ConfigureWebHostDefaults(webHostBuilder => webHostBuilder
