@@ -2,8 +2,8 @@
 using Microsoft.Extensions.Logging;
 using System;
 using System.Diagnostics;
-using System.Linq;
 using System.Diagnostics.Tracing;
+using System.Linq;
 
 namespace App
 {
@@ -46,6 +46,7 @@ namespace App
             var eventId = 1;
             Array.ForEach(levels, level => logger.Log(level, eventId++, "This is a/an {level} log message.", level));
         }
+
         public class FoobarEventListener : EventListener { }
     }
 }

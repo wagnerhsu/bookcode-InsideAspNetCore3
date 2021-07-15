@@ -1,13 +1,12 @@
-﻿using Microsoft.Extensions.Configuration;
-using Microsoft.Extensions.DependencyInjection;
+﻿using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Options;
 using System;
 
 namespace App
 {
-    class Program
+    internal class Program
     {
-        static void Main()
+        private static void Main()
         {
             var optionsAccessor = new ServiceCollection()
                 .AddOptions()
@@ -46,5 +45,4 @@ namespace App
             };
         }
     }
-
 }

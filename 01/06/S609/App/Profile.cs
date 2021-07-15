@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace App
 {
@@ -10,7 +8,10 @@ namespace App
         public int Age { get; set; }
         public ContactInfo ContactInfo { get; set; }
 
-        public Profile() { }
+        public Profile()
+        {
+        }
+
         public Profile(Gender gender, int age, string emailAddress, string phoneNo)
         {
             Gender = gender;
@@ -21,6 +22,7 @@ namespace App
                 PhoneNo = phoneNo
             };
         }
+
         public bool Equals(Profile other)
         {
             return other == null
@@ -30,5 +32,4 @@ namespace App
                   ContactInfo.Equals(other.ContactInfo);
         }
     }
-
 }

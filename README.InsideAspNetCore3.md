@@ -26,7 +26,7 @@
 
 
 # Inside ASP.NET Core 3
-- ASP.NET Core 3 框架揭秘
+- `ASP.NET Core 3` 框架揭秘
 
 ## <a name="NewDevelopmentExperience"></a>01 全新的开发体验
 
@@ -40,7 +40,7 @@
 
 ## <a name="Configuration-01"></a>06 配置选项（上篇）
 
-## <a name="Configuration-02">07 配置选项（下篇）
+## <a name="Configuration-02"></a>07 配置选项（下篇）
 
 ## <a name="Logging-01"></a>08 诊断日志（上篇）
 
@@ -75,3 +75,6 @@
 ## <a name="HealthCheck"></a>23 健康检查
 
 ## <a name="Others"></a>24 补遗
+
+## Change Log
+- 2020-08-30 21:40:35.247

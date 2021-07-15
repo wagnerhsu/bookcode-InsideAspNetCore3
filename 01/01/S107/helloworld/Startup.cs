@@ -3,14 +3,14 @@ using Microsoft.Extensions.DependencyInjection;
 
 namespace helloworld
 {
-public class Startup
-{
-    public void ConfigureServices(IServiceCollection services) => services
-        .AddRouting()
-        .AddControllersWithViews();
+    public class Startup
+    {
+        public void ConfigureServices(IServiceCollection services) => services
+            .AddRouting()
+            .AddControllersWithViews();
 
-    public void Configure(IApplicationBuilder app) => app
-        .UseRouting()
-        .UseEndpoints(endpoints => endpoints.MapControllers());
-}
+        public void Configure(IApplicationBuilder app) => app
+            .UseRouting()
+            .UseEndpoints(endpoints => endpoints.MapControllers());
+    }
 }

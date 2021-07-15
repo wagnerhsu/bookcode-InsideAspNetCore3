@@ -5,9 +5,9 @@ using System;
 
 namespace App
 {
-    class Program
+    internal class Program
     {
-        static void Main()
+        private static void Main()
         {
             var configuration = new ConfigurationBuilder()
                 .AddJsonFile("profile.json")

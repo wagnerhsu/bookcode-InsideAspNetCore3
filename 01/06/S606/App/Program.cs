@@ -4,9 +4,9 @@ using System;
 
 namespace App
 {
-    class Program
+    internal class Program
     {
-        static void Main()
+        private static void Main()
         {
             var config = new ConfigurationBuilder()
                 .AddJsonFile(path: "appsettings.json", optional: true, reloadOnChange: true)
@@ -31,5 +31,4 @@ namespace App
             Console.Read();
         }
     }
-
 }

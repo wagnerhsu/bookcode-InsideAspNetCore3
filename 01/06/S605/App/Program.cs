@@ -5,7 +5,7 @@ namespace App
 {
     public class Program
     {
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
             var index = Array.IndexOf(args, "/env");
             var environment = index > -1

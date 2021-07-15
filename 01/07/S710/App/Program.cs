@@ -1,17 +1,12 @@
-﻿using Microsoft.Extensions.Configuration;
-using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Extensions.Hosting;
-using Microsoft.Extensions.Hosting.Internal;
+﻿using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Options;
-using System;
 using System.Diagnostics;
-using System.Globalization;
 
 namespace App
 {
-    class Program
+    internal class Program
     {
-        static void Main()
+        private static void Main()
         {
             var foobar1 = new FoobarOptions(1, 1);
             var foobar2 = new FoobarOptions(2, 2);
@@ -39,5 +34,4 @@ namespace App
             Debug.Assert(options.Dictionary["3"].Equals(foobar3));
         }
     }
-
 }
